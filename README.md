@@ -8,7 +8,7 @@ A fully operational minimalistic software written in Python and PyQt5.
 In the 6th and last semester of the study programme Mechatronics Trinational,the semester project takes place. During this time a practical project is to be worked on and realized within a group. The choice was made to build a laser engraver, which should be able to engrave an image on different materials. An important aspect of this semesterproject  is  to  develop  a  functional  prototype  or  concept  that  can  be  used  at  university exhibitions for marketing purposes. Despite the coronavirus, which turned the entire tri-national study programme upside down with the lockdowns that followed, our semesterproject was successfully realised. Even some additional features could be implemented.
 For more details (in German) see https://www.overleaf.com/read/wkghwgcjyfjd .
 
-![Picture of Project](https://github.com/atorha/LaserSoft/blob/readme/images/help/Semesterarbeit-59.jpg)
+![Picture of Project](https://github.com/atorha/LaserSoft/blob/master/images/help/Semesterarbeit-59.jpg)
 
 # Installation
 You will need the following packages to run LaserSoft
@@ -30,4 +30,4 @@ You will need the following packages to run LaserSoft
 This is a Software used for our University Project. It is by no means a perfect program. Many features like G-Code support, optical calibration with the built in camera and, most important, a port to an Arduino running GRBL are planned. 
 
 # Thank you for visiting our Project
-![Picture of Project](https://github.com/atorha/LaserSoft/blob/readme/images/help/readMeAbout.jpg)
+![Picture of Project](https://github.com/atorha/LaserSoft/blob/master/images/help/readMeAbout.jpg)
