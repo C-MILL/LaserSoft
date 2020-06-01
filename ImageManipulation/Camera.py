@@ -12,7 +12,8 @@ def cameraTest(state):
     print(state)
 def camera(config,camera):
     imgRoot=str(Path(__file__).parents[1])+'/images'
-    camera.capture(imgRoot+'/camImage.jpg')
+    if platform.machine() != 'x86_64':
+        camera.capture(imgRoot+'/camImage.jpg')
     sleep(1)
     undistort(str(Path(__file__).parents[1])+'/images/camImage.jpg')
     image = cv2.imread(str(Path(__file__).parents[1])+'/images/undisortet.jpg')

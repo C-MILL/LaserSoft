@@ -46,11 +46,7 @@ class Configuration(DefaultWidget):
         except:
             self.config['engraving'][str(self.engravingComboBox.currentText())]['laserPower']=0
             self.engravingLaserPowerBtn.setText('0')
-        try:
-            self.engravingNrOfPassesBtn.setText(str(self.config['engraving'][str(self.engravingComboBox.currentText())]['nrOfPasses']))
-        except:
-            self.config['engraving'][str(self.engravingComboBox.currentText())]['nrOfPasses']=0
-            self.engravingNrOfPassesBtn.setText('0')
+
 
 
 
@@ -70,10 +66,7 @@ class Configuration(DefaultWidget):
         self.engravingLaserPowerBtn.setText(str(int(self.key.getTyped())))
         self.key.close()
 
-    def engravingNrOfPasses(self):
-        self.config['engraving'][str(self.engravingComboBox.currentText())]['nrOfPasses'] = int(self.key.getTyped())
-        self.engravingNrOfPassesBtn.setText(str(int(self.key.getTyped())))
-        self.key.close()
+
 
 
 

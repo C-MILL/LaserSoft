@@ -105,6 +105,8 @@ class Placing(DefaultWidget):
     def refreshCameraImage(self):
         if platform.machine() != 'x86_64':
             camera(self.config['cam'], self.camera)
+        else:
+            camera(self.config['cam'], None)
         self.setCameraImage(self.imgRoot + '/finalCamImage.jpg')
 
     def setCameraImage(self, imagePath):

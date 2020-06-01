@@ -169,7 +169,7 @@ class Work(QThread):
             try:
                 x = self.coordToDraw['x' + str(line+drawnLines)]
                 y = self.coordToDraw['y' + str(line+drawnLines)]
-                plt.plot(x, y, linestyle='-', color='black', linewidth=0.2)
+                plt.plot(x, y, linestyle='-', color='black', linewidth=0.8)
             except:
                 pass
 

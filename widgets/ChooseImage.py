@@ -19,6 +19,7 @@ class ChooseImage(QMainWindow):
         self.populate()
         self.treeView.clicked.connect(self.showImage)
         self.okBtn.clicked.connect(self.ok)
+        self.cancelBtn.clicked.connect(self.cancel)
 
     def showSelf(self):
         if platform.machine() != 'x86_64':
@@ -46,6 +47,9 @@ class ChooseImage(QMainWindow):
             self.label.setText('')
         except:
             self.label.setText('File format unknown!')
+
+    def cancel(self):
+        self.close()
 
     def ok(self):
         try:

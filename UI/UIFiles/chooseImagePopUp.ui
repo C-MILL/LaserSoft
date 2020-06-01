@@ -49,6 +49,37 @@ background-color: rgb(68, 68, 68);</string>
        </widget>
       </item>
       <item>
+       <widget class="QPushButton" name="cancelBtn">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(92, 97, 100);
+color: rgb(175, 177, 179);
+</string>
+        </property>
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QPushButton" name="okBtn">
         <property name="minimumSize">
          <size>
