@@ -3,7 +3,7 @@
 - Improvements
     - Image Explorer has a Cancel Button now
 - Bug Fixes
-    - Emulation mode, Camera-Image placing bug fixed. (The whole class was ignored before. Now it ignores the image capturing process only and still does all the calculations.
+    - Emulation mode, Camera-Image placing bug fixed. (The whole class was ignored before. Now it ignores the image capturing process only and still does all the calculations.)
 ## 0.9
 
 - New features
