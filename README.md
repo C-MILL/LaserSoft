@@ -6,7 +6,6 @@ A fully operational minimalistic software written in Python and PyQt5.
 
 # Introduction
 In the 6th and last semester of the study programme Mechatronics Trinational,the semester project takes place. During this time a practical project is to be worked on and realized within a group. The choice was made to build a laser engraver, which should be able to engrave an image on different materials. An important aspect of this semesterproject  is  to  develop  a  functional  prototype  or  concept  that  can  be  used  at  university exhibitions for marketing purposes. Despite the coronavirus, which turned the entire tri-national study programme upside down with the lockdowns that followed, our semesterproject was successfully realised. Even some additional features could be implemented.
-For more details (in German) see https://www.overleaf.com/read/wkghwgcjyfjd .
 
 ![Picture of Project](https://github.com/atorha/LaserSoft/blob/master/images/help/Semesterarbeit-59.jpg)
 
