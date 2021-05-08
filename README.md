@@ -27,6 +27,3 @@ You will need the following packages to run LaserSoft
 
 # Disclaimer
 This is a Software used for our University Project. It is by no means a perfect program. Many features like G-Code support, optical calibration with the built in camera and, most important, a port to an Arduino running GRBL are planned. 
-
-# Thank you for visiting our Project
-![Picture of Project](https://github.com/atorha/LaserSoft/blob/master/images/help/readMeAbout.jpg)
